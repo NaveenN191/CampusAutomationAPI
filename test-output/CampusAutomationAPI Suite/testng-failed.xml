@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CampusAutomationAPI Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API Test suite(failed)">
+    <classes>
+      <class name="com.api.tests.CreateUserTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyCreateUserAPI"/>
+        </methods>
+      </class> <!-- com.api.tests.CreateUserTest -->
+    </classes>
+  </test> <!-- API Test suite(failed) -->
+</suite> <!-- Failed suite [CampusAutomationAPI Suite] -->
